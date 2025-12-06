@@ -9,8 +9,8 @@
 - **Portable C code** – no external game engines, just the standard 42 support stack (`mlx`, `get_next_line`, and a sprinkle of libft helpers).
 
 ## Screenshots
-![Gameplay window](Texturesv1.png)
-![Texture overview](texturesV2.png)
+![Gameplay window](../Texturesv1.png)
+![Texture overview](../texturesV2.png)
 
 ## Requirements
 | Dependency | Notes |
