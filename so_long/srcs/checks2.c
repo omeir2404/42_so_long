@@ -52,6 +52,7 @@ int	check_file(char *map_file)
 
 int	check_first_last_line_borders(char **map, char **av)
 {
+	(void)av;
 	int	line;
 	int	column;
 

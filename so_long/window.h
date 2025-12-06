@@ -95,7 +95,7 @@ int		check_args(int ac);
 int		check_help1(char **map, int prev_column, int column, int line_hold);
 int		check_help2(t_data *data);
 int		check_map_chars(t_data *data);
-static int	can_go(t_data *data, int x, int y);
+ int	can_go(t_data *data, int x, int y);
 void	check_path(t_data *data, int x, int y);
 int		path(t_data *data);
 

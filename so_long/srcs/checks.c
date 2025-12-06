@@ -14,6 +14,7 @@
 
 int	check_square_and_borders(t_data *data, char **map, char **av)
 {
+	(void)av;
 	int	line_count;
 	int	line_hold;
 	int	column;
@@ -76,11 +77,7 @@ int	check_map_chars(t_data *data)
 
 int	check_map(t_data *data, char **map, char **av)
 {
-	int	line;
-	int	column;
 
-	line = 0;
-	column = 0;
 	if (check_first_last_line_borders(map, av) == ERROR)
 		return (ERROR);
 	if (check_square_and_borders(data, map, av) == ERROR)

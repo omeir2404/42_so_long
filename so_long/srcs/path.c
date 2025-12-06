@@ -12,7 +12,7 @@
 
 #include "../window.h"
 
-static int	can_go(t_data *data, int x, int y)
+int	can_go(t_data *data, int x, int y)
 {
 	if (data->map.check[y][x] == 'C')
 		data->player.collectable++;

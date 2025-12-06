@@ -2,7 +2,7 @@ NAME	= so_long
 
 CC		= cc -g
 
-# CFLAGS	= -Wall -Werror -Wextra 
+CFLAGS	= -Wall -Werror -Wextra 
 
 SRC	= main.c srcs/utils.c GNL/get_next_line.c GNL/get_next_line_utils.c libft_functs/ft_strcmp.c libft_functs/ft_strrchr.c srcs/checks.c \
 			srcs/map.c srcs/checks2.c libft_functs/ft_strlcpy.c srcs/path.c

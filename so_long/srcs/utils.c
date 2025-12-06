@@ -35,6 +35,7 @@ int	move_player4(t_data *data, char *movement, int line, int collumn)
 			return (ERROR);
 		}
 	}
+	return 0;
 }
 
 int	move_player3(t_data *data, char *movement, int line, int collumn)
