@@ -6,7 +6,7 @@
 /*   By: oharoon <oharoon@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 14:54:26 by oharoon           #+#    #+#             */
-/*   Updated: 2023/04/04 17:29:02 by oharoon          ###   ########.fr       */
+/*   Updated: 2025/12/07 22:18:25 by oharoon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,7 +77,6 @@ int	check_map_chars(t_data *data)
 
 int	check_map(t_data *data, char **map, char **av)
 {
-
 	if (check_first_last_line_borders(map, av) == ERROR)
 		return (ERROR);
 	if (check_square_and_borders(data, map, av) == ERROR)

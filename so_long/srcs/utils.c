@@ -6,13 +6,11 @@
 /*   By: oharoon <oharoon@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 16:13:12 by oharoon           #+#    #+#             */
-/*   Updated: 2023/10/10 16:34:10 by oharoon          ###   ########.fr       */
+/*   Updated: 2025/12/07 22:18:25 by oharoon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../window.h"
-/* The x and y coordinates of the rect corresponds to its upper left corner. */
-
 
 int	move_player4(t_data *data, char *movement, int line, int collumn)
 {
@@ -35,7 +33,7 @@ int	move_player4(t_data *data, char *movement, int line, int collumn)
 			return (ERROR);
 		}
 	}
-	return 0;
+	return (0);
 }
 
 int	move_player3(t_data *data, char *movement, int line, int collumn)
@@ -115,7 +113,6 @@ int	move_player(t_data *data, char *movement, int line, int collumn)
 	}
 	return (0);
 }
-
 
 int	alter_map(t_data *data, char *movement)
 {

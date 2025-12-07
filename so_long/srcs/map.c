@@ -6,7 +6,7 @@
 /*   By: oharoon <oharoon@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 16:12:03 by oharoon           #+#    #+#             */
-/*   Updated: 2023/04/01 16:12:45 by oharoon          ###   ########.fr       */
+/*   Updated: 2025/12/07 22:18:25 by oharoon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,23 +61,3 @@ void	copy_map(t_data *data, int counter, int fd, char ***map)
 	}
 	(*map)[counter] = gnl;
 }
-
-// void	count_cs(t_data *data)
-// {
-// 	int	line;
-// 	int	collumn;
-
-// 	line = 0;
-// 	collumn = 0;
-// 	while(data->map.map[line])
-// 	{
-// 		while(data->map.map[line][collumn])
-// 		{
-// 			if (data->map.map[line][collumn] == 'C')
-// 				data->map.collectables++;
-// 			collumn++;
-// 		}
-// 		collumn = 0;
-// 		line++;
-// 	}
-// }

@@ -6,7 +6,7 @@
 /*   By: oharoon <oharoon@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/01 14:48:46 by oharoon           #+#    #+#             */
-/*   Updated: 2023/04/04 17:36:32 by oharoon          ###   ########.fr       */
+/*   Updated: 2025/12/07 22:18:25 by oharoon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,6 @@ typedef struct s_player
 	int	x;
 	int	y;
 	int	collectable;
-	
 }	t_player;
 
 typedef struct s_map
@@ -47,12 +46,10 @@ typedef struct s_map
 	int		collectables;
 	int		line;
 	int		collumn;
-	int		exits;
-	int		players;
+	int	exits;
+	int	players;
 	char	**check;
-	int		check_exits;
-	//
-	
+	int	check_exits;
 }	t_map;
 
 // window info
@@ -93,9 +90,9 @@ int		map_line_count_map(char **map);
 int		check_file(char *map_file);
 int		check_args(int ac);
 int		check_help1(char **map, int prev_column, int column, int line_hold);
-int		check_help2(t_data *data);
-int		check_map_chars(t_data *data);
- int	can_go(t_data *data, int x, int y);
+int	check_help2(t_data *data);
+int	check_map_chars(t_data *data);
+int	can_go(t_data *data, int x, int y);
 void	check_path(t_data *data, int x, int y);
 int		path(t_data *data);
 
